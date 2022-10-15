@@ -32,7 +32,7 @@ body {
     border-radius: 50%;
     outline: var(--purple) 3px solid;
 
-    background-image: url(./assets/FotoMinha-150x150.jpg);
+    background-image: url(../global-assets/FotoMinha-150x150.jpg);
 }
 
 .name {
