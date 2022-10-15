@@ -28,8 +28,9 @@ body {
     height: 150px;
     margin: 25px auto 0 auto;
 
-    border: var(--purple) solid 2px;
+    border: var(--body-bg-color) solid 3px;
     border-radius: 50%;
+    outline: var(--purple) 3px solid;
 
     background-image: url(./assets/FotoMinha-150x150.jpg);
 }
