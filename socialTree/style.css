@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', serif;
+    color: var(--purple);
+
+    background-color: var(--body-bg-color);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-perfil {
+    width: 150px;
+    height: 150px;
+    margin: 25px auto 0 auto;
+
+    border: var(--purple) solid 2px;
+    border-radius: 50%;
+
+    background-image: url(./assets/FotoMinha-150x150.jpg);
+}
+
+.name {
+    font-weight: 300;
+
+    width: 130px;
+    margin: 10px auto;
+}
+
+a {
+
+    width: 100%;
+    padding: 5px 0;
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+
+    border: var(--purple) solid 2px;
+    border-radius: 4px;
+}
+
+a:hover {
+    transition: 0.7s;
+    color: var(--body-bg-color);
+    background-color: var(--purple);
+}
+
+nav {
+    width: 30vh;
+    height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+
+.icons {
+    width: 75%;
+
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    border: var(--body-bg-color) 2px solid;
+    border-radius: 20%;
+}
+
+img:hover {
+    border-color: var(--purple);
+}
