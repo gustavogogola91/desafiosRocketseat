@@ -6,7 +6,7 @@
   --bg-button-color: #8257e5;
 }
 
-.logo {
-    height: 60px;
-    margin: 40px;
+* {
+    margin: 0;
 }
+
